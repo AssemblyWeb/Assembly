@@ -1,0 +1,115 @@
+///*global*
+body, html
+  -webkit-font-smoothing: antialiased
+  overflow-x: hidden !important
+.img-center
+  margin: 0 auto
+
+///*positioning/
+.relative
+  position: relative
+
+.absolute
+  position: absolute
+
+///*text-align*
+.text-left
+  text-align: left
+.text-right
+  text-align: right
+
+///*margin-top*
+.marginTop-20
+  margin-top: 20px
+.marginTop-40
+  margin-top: 40px
+.marginTop-60
+  margin-top: 60px
+.marginTop-80
+  margin-top: 80px
+
+///*margin-bottom*
+.marginBottom-20
+  margin-bottom: 20px
+.marginBottom-40
+  margin-bottom: 40px
+.marginBottom-60
+  margin-bottom: 60px
+.marginBottom-80
+  margin-bottom: 80px
+.marginBottom-100
+  margin-bottom: 100px
+.marginBottom-200
+  margin-bottom: 200px
+///*padding-top*
+.paddingTop-20
+  margin-top: 20px
+.paddingTop-40
+  margin-top: 40px
+.paddingTop-60
+  margin-top: 60px
+.paddingTop-80
+  margin-top: 80px
+.paddingTop-100
+  margin-top: 100px
+
+///*padding-bottom*
+.paddingBottom-20
+  margin-bottom: 20px
+.paddingBottom-40
+  margin-bottom: 40px
+.paddingBottom-60
+  margin-bottom: 60px
+.paddingBottom-80
+  margin-bottom: 80px
+.paddingBottom-100
+  margin-bottom: 100px
+
+///*opacity*
+.opacity-01
+  opacity: 0.1
+.opacity-02
+  opacity: 0.2
+.opacity-03
+  opacity: 0.3
+.opacity-04
+  opacity: 0.4
+.opacity-05
+  opacity: 0.5
+.opacity-06
+  opacity: 0.6
+.opacity-07
+  opacity: 0.7
+.opacity-08
+  opacity: 0.8
+.opacity-09
+  opacity: 0.9
+.opacity-1
+  opacity: 1.0
+
+///*z-index*
+.z--1
+  z-index: -1
+.z-1
+  z-index: 10
+.z-2
+  z-index: 20
+.z-3
+  z-index: 30
+.z-4
+  z-index: 40
+.z-5
+  z-index: 50
+.z-max
+  z-index: 999999 !important
+
+//fixed bug on modal
+body.modal-open
+  //prevent a movement on clicking
+  //bug: shows another scrollbar
+  padding-right: inherit !important
+  //prevent scrolling backgorund
+  //bug: go to the top of the page after closing modal
+  //overflow: hidden
+  //position:fixed
+  //width: 100%

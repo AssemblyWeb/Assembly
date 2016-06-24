@@ -1,0 +1,201 @@
+///*vertical-nav*
+
+//.vertical-nav ul
+  list-style-type: none
+  font-size: 18px
+  padding-right: 10px
+  right: 10px
+  top: 40%
+  z-index: 3
+  transform: translateY(10%)
+  position: fixed
+  @media screen and(max-width: 800px)
+    visibility: hidden
+
+//.vertical-nav i
+  color: white
+  margin-bottom: 15px
+
+//.is-selected
+  transform: 100% 50%
+  transition: all 0.3s ease
+  i
+    color: $grey-dark
+
+///*vertical-nav*
+
+///*section2*
+.section2--bg
+  background: $orange-gradient
+
+.section2--bg-img
+  background: url("../img/home/climb.png")
+  background-repeat: no-repeat
+  overflow-x: hidden
+  background-size: auto 60%
+  background-position: right bottom
+  opacity: 1
+  @media screen and (min-width: 992px)
+    background-size: auto 80%
+
+///*section2*
+///*section3*
+.section3--bg-img
+  background: url("../img/home/desk.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top center
+
+.section3--align--isright
+  @media screen and(min-width: 768px)
+    text-align: left
+
+//circles
+.circlejs
+  transform: translateY(200px)
+
+.circle1
+  position: relative
+  &::after
+    content: ""
+    width: 600px
+    height: 600px
+    background: $blue
+    border-radius: 50%
+    position: absolute
+    top: -300px
+    left: -150px
+    @media screen and(min-width: 768px)
+      bottom: 100px
+      background: $blue
+
+.circle2
+  position: relative
+  &::after
+    content: ""
+    width: 200px
+    height: 200px
+    background: $red
+    border-radius: 50%
+    position: absolute
+    top: 0px
+    left: 10vw
+    @media screen and(min-width: 768px)
+      left: 40vw
+      width: 300px
+      height: 300px
+    @media screen and(min-width: 1440px)
+      left: 25vw
+      width: 500px
+      height: 500px
+
+.circle3
+  position: relative
+  &::after
+    content: ""
+    width: 200px
+    height: 200px
+    background: $violet
+    border-radius: 50%
+    position: absolute
+    top: 150px
+    left: 200px
+
+
+.circle4
+  position: relative
+  &::after
+    content: ""
+    width: 600px
+    height: 600px
+    background: $blue
+    border-radius: 50%
+    position: absolute
+    top: 150px
+    right: -50px
+    @media screen and(min-width: 1440px)
+      width: 50vw
+      height: 50vw
+      right: -500px
+//circles
+///*section3*
+///*section4*
+.bg-white
+  background: white
+  position: relative
+
+//title
+.section4--text
+  position: relative
+  top: -69px
+  left: 2%
+  //the margin-bottom override the Top to align the text
+  margin-bottom: -69px
+  text-align: left
+  @media screen and(min-width: 480px)
+    margin-bottom: -98px
+    top: -98px
+    left: 10%
+.section4--text--iswhite
+  color: white
+  line-height: 26px
+  @media screen and(min-width: 480px)
+    line-height: 40px
+
+.section4--text--iscyan
+  color: $cyan
+  font-size: 40px
+  @media screen and(min-width: 480px)
+    line-height: 0.9
+    font-size: 60pt
+//title
+.box-shadow
+  box-shadow: 5px 10px 40px rgba($grey-dark, 0.8)
+
+.section4--screen
+  border-radius: 10px 10px 0 0
+  transition: all ease 0.3s
+  transform: translate(100%,0)
+  overflow: hidden
+  @media screen and (max-width: 480px)
+    min-width: 500px
+
+
+.section4--phone-xs
+  border-radius: 30px
+
+.section4--phone
+  border-radius: 20px
+  bottom: 2%
+  left: -1vw
+  max-width: 20%
+
+//texts
+.section4--paragraph
+  //font-family: $font-secondary
+  font-size: 26pt
+  //text-transform: uppercase
+  font-weight: 100
+  line-height: 1.21
+  letter-spacing: 1.5px
+  span
+    font-weight: 600
+  @media screen and(min-width: 1200px)
+    font-size: 40px
+  @media screen and(min-width: 1600px)
+    font-size: 50px
+
+//js classes
+.appear
+  transition: all 1s ease-in-out
+  opacity: 0
+  &.--isvisible
+    opacity: 1
+.appear-l
+  transition: all 1s ease
+  transform: translateX(50vw)
+  opacity: 0
+  &.--isvisible-l
+    transform: translateX(0)
+    opacity: 1
+///*section4*

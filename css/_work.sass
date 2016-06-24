@@ -1,0 +1,47 @@
+.work-thumb
+  display: block
+  margin: 0 auto
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  padding: 0
+  margin-top: 30px
+  text-align: center
+  &::after
+    content: ''
+    display: block
+    padding-top: 100%
+
+.work-meta
+  position: absolute
+  background: fade-out($grey-dark, 0.5)
+  top: 30px
+  right: 15px
+  left: 15px
+  margin: 0 auto
+  bottom: 0
+  color: white
+  padding-top: 35%
+  transition: all 0.3s ease-in-out
+  opacity: 0
+
+.work-thumb:hover .work-meta
+  opacity: 1
+
+.title-work
+  transform: translate(0%,-50%)
+  transition: all 0.3s ease-in-out
+
+.subtitle-work
+  transform: translate(0%,50%)
+  transition: all 0.3s ease-in-out
+
+.work-thumb:hover .title-work,
+.work-thumb:hover .subtitle-work
+  transform: translate(0%,0%)
+
+.img-phone
+  width: 270px
+
+.img-shadow
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0,0.2)
+  

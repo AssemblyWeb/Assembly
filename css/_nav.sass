@@ -1,0 +1,77 @@
+.navbar-default
+  background-color: rgba(0, 0, 0, 0.3)
+  height: 50px
+  border-radius: 0
+  border: 0
+  z-index: 3
+
+.nav-text
+  color: white
+  font-size: 14pt
+  text-transform: uppercase
+  cursor: pointer
+  opacity: 0.6
+  &:hover,
+  &:active
+    opacity: 1
+
+//js event
+.current
+  border-bottom: 2px solid white
+  &>.nav-text
+    opacity: 1
+
+.navbar-nav>li>a
+  padding-bottom: 11px
+//js event
+
+.nav-logo
+  height: 40px
+  margin-left: -10px
+  margin-top: -5px
+
+///*override bootstrap*
+//.navbar-default .navbar-toggle
+
+.navbar-toggle
+  border-radius: 0
+  border: 0
+
+.navbar-default .navbar-toggle .icon-bar
+  background-color: white
+
+
+.navbar-default .navbar-toggle
+  &:focus,
+  &:hover
+    background-color: transparent
+//efecto on press button
+  //&:focus,
+  //&:active
+    background-color: red
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form
+  border-color: $grey-bright
+
+
+@media screen and(max-width: 767px)
+  //.in .navbar-collapse
+  .navbar-nav
+    background-color: rgba(0, 0, 0, 0.5)
+    border-top: 0
+    margin-top: 0
+    height: 100% !important
+
+  //override padding bottom on .current (.active js event)
+  .navbar-nav>li>a
+    padding-top: 30px
+    padding-bottom: 11px
+    padding-left: 1.3em
+    padding-right: 1.3em
+
+  //js event
+  .current
+    border-bottom: 0
+    &>.nav-text
+      opacity: 1
