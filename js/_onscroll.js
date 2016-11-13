@@ -1,4 +1,6 @@
-$(window).scroll(function($){
+//on safari and edge doest not recognize the scroll.
+/*
+$(window).scroll(function(){
   var $window = $(window),
       $scroll = $(this).scrollTop(),
        $climb = $('#climb'),
@@ -8,6 +10,7 @@ $(window).scroll(function($){
         $poll = $('#poll');
 //puse $ en funcion.. cambie ; x , en var
         ///on scroll appear
+      //alert($scroll);
   if($scroll > $climb.offset().top - ($window.height()/1.2)){
     $climb.addClass("--isvisible");
   }
@@ -27,36 +30,24 @@ $(window).scroll(function($){
     $phoneXs.addClass("--isvisible-l");
   }
 
-/*//parallax//*
-// /'+ $scroll * 1 - $section2height +'
-var $section2height = $('#section3').offset().top;
-           $circle1 = $('.circle1');
-    //alert($scroll-$section2height);
-       $('.circlejs').css({
-         //'top' : ' -'+ $scroll * 1 + $section2height +'px'
-         'transform' : 'translateY(-'+ $scroll - $section2height +'px)'
-
-       });
-
-      // if($scroll >= $section2height){
-      //};
-*/
 })(jQuery);
-
+*/
+/*
 $(window).scroll(function($){
   var $window = $(window);
   var $section2height = $('#section3').offset().top;
-        $circle1 = $('.circle1');
-      $scroll = $(this).scrollTop();
+        $circle1 = $('#circle1');
+          $scroll = $(this).scrollTop();
 
 
 
   ///parallax//*
 // /'+ $scroll * 1 - $section2height +'
     //alert($scroll-$section2height);
-       $('.circlejs').css({
+
+       $circle1.css({
          //'top' : ' -'+ $scroll * 1 + $section2height +'px'
-         'transform' : 'translateY(-'+ $scroll - $section2height +'px)'
+         'transform' : 'translateY(-200px)'
 
        });
 
@@ -64,3 +55,4 @@ $(window).scroll(function($){
       //};
 
 })(jQuery);
+*/

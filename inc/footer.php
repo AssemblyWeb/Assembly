@@ -5,12 +5,12 @@
           <img src="img/logo_footer.svg" alt="" />
         </div>
 
-        <a href="mailto:info@assembly.net?Subject=Hello!" class="text-footer" target="">info@assembly.net</a>
+        <a href="mailto:alfio@assemblyweb.net?Subject=Hello!" class="text-footer" target="">alfio@assemblyweb.net</a>
         <br>
         <ul class="social-network social-circle">
-            <li><a href="https://www.facebook.com/AssemblyWeb" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-            <li><a href="https://www.behance.net/alfioperino" title="Behance"><span class="fa fa-behance"></span></a></li>
-            <li><a href="https://www.linkedin.com/in/alfio-perino-13246437?trk=nav_responsive_tab_profile_pic" title="Linkedin"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="https://www.facebook.com/AssemblyWeb" target="_blank" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="https://www.behance.net/alfioperino" target="_blank"title="Behance"><span class="fa fa-behance"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/alfio-perino-13246437?trk=nav_responsive_tab_profile_pic" target="_blank"  title="Linkedin"><span class="fa fa-linkedin"></span></a></li>
         </ul>
     </div>
   </div>
@@ -34,7 +34,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-77898678-1', 'auto');
+  ga('create', 'UA-87140515-1', 'auto');
   ga('send', 'pageview');
 
 </script>

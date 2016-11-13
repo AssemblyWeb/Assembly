@@ -30,6 +30,15 @@ body, html {
 .marginTop-80 {
   margin-top: 80px; }
 
+.marginTop-100 {
+  margin-top: 100px; }
+
+.marginTop-150 {
+  margin-top: 150px; }
+
+.marginTop-200 {
+  margin-top: 200px; }
+
 .marginBottom-20 {
   margin-bottom: 20px; }
 
@@ -45,38 +54,53 @@ body, html {
 .marginBottom-100 {
   margin-bottom: 100px; }
 
+.marginBottom-150 {
+  margin-bottom: 150px; }
+
 .marginBottom-200 {
   margin-bottom: 200px; }
 
 .paddingTop-20 {
-  margin-top: 20px; }
+  padding-top: 20px; }
 
 .paddingTop-40 {
-  margin-top: 40px; }
+  padding-top: 40px; }
 
 .paddingTop-60 {
-  margin-top: 60px; }
+  padding-top: 60px; }
 
 .paddingTop-80 {
-  margin-top: 80px; }
+  padding-top: 80px; }
 
 .paddingTop-100 {
-  margin-top: 100px; }
+  padding-top: 100px; }
+
+.paddingTop-150 {
+  padding-top: 150px; }
+
+.paddingTop-200 {
+  padding-top: 200px; }
 
 .paddingBottom-20 {
-  margin-bottom: 20px; }
+  padding-bottom: 20px; }
 
 .paddingBottom-40 {
-  margin-bottom: 40px; }
+  padding-bottom: 40px; }
 
 .paddingBottom-60 {
-  margin-bottom: 60px; }
+  padding-bottom: 60px; }
 
 .paddingBottom-80 {
-  margin-bottom: 80px; }
+  padding-bottom: 80px; }
 
 .paddingBottom-100 {
-  margin-bottom: 100px; }
+  padding-bottom: 100px; }
+
+.paddingBottom-150 {
+  padding-bottom: 150px; }
+
+.paddingBottom-200 {
+  padding-bottom: 200px; }
 
 .opacity-01 {
   opacity: 0.1; }
@@ -417,15 +441,15 @@ body {
     content: "";
     width: 600px;
     height: 600px;
-    background: #3B5998;
+    background: #2ac298;
     border-radius: 50%;
     position: absolute;
-    top: -300px;
+    top: -500px;
     left: -150px; }
     @media screen and (min-width: 768px) {
       .circle1::after {
         bottom: 100px;
-        background: #3B5998; } }
+        background: #2ac298; } }
 
 .circle2 {
   position: relative; }
@@ -484,30 +508,32 @@ body {
 
 .section4--text {
   position: relative;
-  top: -69px;
-  left: 2%;
+  top: -75px;
+  left: -5%;
   margin-bottom: -69px;
   text-align: left; }
   @media screen and (min-width: 480px) {
     .section4--text {
       margin-bottom: -98px;
-      top: -98px;
+      top: -85px;
       left: 10%; } }
 
 .section4--text--iswhite {
   color: white;
-  line-height: 26px; }
+  line-height: 30px; }
   @media screen and (min-width: 480px) {
     .section4--text--iswhite {
-      line-height: 40px; } }
+      line-height: 80px;
+      font-size: 50pt; } }
 
 .section4--text--iscyan {
   color: #0096ff;
-  font-size: 40px; }
+  font-size: 48px; }
   @media screen and (min-width: 480px) {
     .section4--text--iscyan {
-      line-height: 0.9;
-      font-size: 60pt; } }
+      line-height: 0.5;
+      font-size: 100pt;
+      margin-left: -5px; } }
 
 .box-shadow {
   box-shadow: 5px 10px 40px rgba(54, 54, 54, 0.8); }
@@ -515,7 +541,6 @@ body {
 .section4--screen {
   border-radius: 10px 10px 0 0;
   transition: all ease 0.3s;
-  transform: translate(100%, 0);
   overflow: hidden; }
   @media screen and (max-width: 480px) {
     .section4--screen {
@@ -531,7 +556,7 @@ body {
   max-width: 20%; }
 
 .section4--paragraph {
-  font-size: 26pt;
+  font-size: 22pt;
   font-weight: 100;
   line-height: 1.21;
   letter-spacing: 1.5px; }
@@ -543,20 +568,6 @@ body {
   @media screen and (min-width: 1600px) {
     .section4--paragraph {
       font-size: 50px; } }
-
-.appear {
-  transition: all 1s ease-in-out;
-  opacity: 0; }
-  .appear.--isvisible {
-    opacity: 1; }
-
-.appear-l {
-  transition: all 1s ease;
-  transform: translateX(50vw);
-  opacity: 0; }
-  .appear-l.--isvisible-l {
-    transform: translateX(0);
-    opacity: 1; }
 
 .work-thumb {
   display: block;

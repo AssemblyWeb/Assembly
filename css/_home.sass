@@ -60,14 +60,14 @@
     content: ""
     width: 600px
     height: 600px
-    background: $blue
+    background: $green
     border-radius: 50%
     position: absolute
-    top: -300px
+    top: -500px
     left: -150px
     @media screen and(min-width: 768px)
       bottom: 100px
-      background: $blue
+      background: $green
 
 .circle2
   position: relative
@@ -127,27 +127,29 @@
 //title
 .section4--text
   position: relative
-  top: -69px
-  left: 2%
+  top: -75px
+  left: -5%
   //the margin-bottom override the Top to align the text
   margin-bottom: -69px
   text-align: left
   @media screen and(min-width: 480px)
     margin-bottom: -98px
-    top: -98px
+    top: -85px
     left: 10%
 .section4--text--iswhite
   color: white
-  line-height: 26px
+  line-height: 30px
   @media screen and(min-width: 480px)
-    line-height: 40px
+    line-height: 80px
+    font-size: 50pt
 
 .section4--text--iscyan
   color: $cyan
-  font-size: 40px
+  font-size: 48px
   @media screen and(min-width: 480px)
-    line-height: 0.9
-    font-size: 60pt
+    line-height: 0.5
+    font-size: 100pt
+    margin-left: -5px
 //title
 .box-shadow
   box-shadow: 5px 10px 40px rgba($grey-dark, 0.8)
@@ -155,7 +157,7 @@
 .section4--screen
   border-radius: 10px 10px 0 0
   transition: all ease 0.3s
-  transform: translate(100%,0)
+  //transform: translate(100%,0)
   overflow: hidden
   @media screen and (max-width: 480px)
     min-width: 500px
@@ -173,7 +175,7 @@
 //texts
 .section4--paragraph
   //font-family: $font-secondary
-  font-size: 26pt
+  font-size: 22pt
   //text-transform: uppercase
   font-weight: 100
   line-height: 1.21
@@ -186,12 +188,21 @@
     font-size: 50px
 
 //js classes
-.appear
+
+//.appear
   transition: all 1s ease-in-out
-  opacity: 0
+  opacity: 0.2
+  //-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+  filter: alpha(opacity=1)
+  -khtml-opacity: 1
+  filter: alpha(opacity=1)
   &.--isvisible
-    opacity: 1
-.appear-l
+  opacity: 1
+  //-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=1)""
+  filter: alpha(opacity=1)
+  -khtml-opacity: 1
+  filter: alpha(opacity=100)
+//.appear-l
   transition: all 1s ease
   transform: translateX(50vw)
   opacity: 0

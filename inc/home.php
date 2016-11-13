@@ -5,10 +5,10 @@
       <div class="col-xs-12 col-sm-10 marginBottom-20 paddingBottom-40">
         <p class="text1 marginTop-20"><b>Succesful does not come as a miracle.<br>It’s designed.</b></p>
         <p class="text1 marginTop-20">
-          Are you exposing your product the best way? Are you reaching your target audience?
+          Are you exposing your product the best way?<br>Are you reaching your target audience?
         </p>
         <p class="text1 marginTop-20">
-        You are great at what you do but it's time to jump out and <b>OWN</b> the business. </h3>
+        You are great at what you do but it's time to jump out and <b>OWN</b> the business.
         </p>
       </div>
     </div>
@@ -22,26 +22,26 @@
     <div class="circle4 z-1 opacity-05 hidden-xs"></div>
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-sm-push-6 text-center">
-        <h2 class="title-text1 z-2 relative marginTop-80 section3--align--isright">Not for everybody,<br><span class="title-text2">just for you</span></h2>
+        <h2 class="title-text1 z-2 relative marginTop-60 section3--align--isright">Not for everybody,<br><span class="title-text2">just for you</span></h2>
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-sm-push-6 marginTop-40 section3--marginBottom">
+    <div class="col-xs-12 col-sm-6 col-sm-push-6 marginTop-40">
 
       <p class="text1 z-2 relative">
           I interpret your ideas and together we shape it yo create your identity.
       </p>
-      <p class="text1 z-2 relative marginTop-40 paddingBottom-40">
-          Make impact with a custom design based on your needs starting with a process of analisis that leads to a solid product.
+      <p class="text1 z-2 relative marginTop-40 paddingBottom-200">
+          Make impact with a custom design based on your needs starting with a process of analysis that leads to a solid product.
       </p>
     </div>
   </div>
-  <div id="circle1" class="circle1 z-max opacity-02 circlejs" ></div>
+  <div id="circle1" class="circle1 z-2 opacity-02 circlejs" ></div>
 </section>
 
 <section id="section4" class="container-fluid bg-white z-3 cd-section">
   <div class="col-xs-12 text-center z-2">
-    <h2 class="title-text1 section4--text section4--text--iswhite">Make<br>the<br><span class="title-text2 section4--text--iscyan">Difference</span></h2>
+    <h2 class="title-text1 section4--text section4--text--iswhite">Make<br class="visible-xs"> the<br><span class="title-text2 section4--text--iscyan">Difference</span></h2>
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-6 marginTop-60">

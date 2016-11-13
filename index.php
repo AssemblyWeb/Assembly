@@ -1,5 +1,5 @@
 <?php
-  include 'inc/welcome.php';
+  //include 'inc/welcome.php';
   include 'inc/header_common.php';
   include 'inc/nav.php';
   include 'inc/header.php';

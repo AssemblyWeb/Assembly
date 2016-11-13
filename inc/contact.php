@@ -35,7 +35,7 @@
       </div>
       <div class="form-group marginTop-40">
         <img src="img/contact/icon-message.svg" class="textarea-icon" />
-        <label class="control-label" for="niceChecks">Try typing in this textarea</label>
+        <label class="control-label" for="niceChecks">Your message</label>
         <textarea class="form-control" rows="2" name="message"></textarea>
       </div>
       <input class="form-input form-input-hover marginTop-20" type="submit" name="send" value="Send">
