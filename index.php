@@ -5,7 +5,7 @@
   include 'inc/header.php';
   include 'inc/home.php';
   //include 'inc/vertical_nav.php';
-  include 'inc/writeme.php';
+  include 'inc/writetome.php';
   include 'inc/footer.php'
 
 ?>
