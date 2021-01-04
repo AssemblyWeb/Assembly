@@ -29,7 +29,7 @@
     <div class="col-xs-12 col-sm-6 col-sm-push-6 marginTop-40">
 
       <p class="text1 z-2 relative">
-          I interpret your ideas and together we shape it yo create your identity.
+          I interpret your ideas and together we shape it to create your identity.
       </p>
       <p class="text1 z-2 relative marginTop-40 paddingBottom-200">
           Make impact with a custom design based on your needs starting with a process of analysis that leads to a solid product.
